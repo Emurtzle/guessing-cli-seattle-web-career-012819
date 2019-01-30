@@ -6,6 +6,8 @@ def run_guessing_game
 
   selection = gets.chomp
 
+  binding.pry
+
   if selection == "exit"
     puts "Goodbye!"
   else
