@@ -9,4 +9,5 @@ def run_guessing_game
   else
     puts "The computer guessed #{comp_guess}."
   end
+  binding.pry
 end
