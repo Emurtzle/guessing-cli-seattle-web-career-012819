@@ -5,6 +5,10 @@ def run_guessing_game
   comp_guess = inti
   selection = gets.chomp
 
+  while selection != "exit"
+
+  end
+
   if selection == "exit"
     puts "Goodbye!"
   else
