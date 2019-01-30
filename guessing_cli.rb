@@ -9,6 +9,10 @@ def run_guessing_game
 
     selection = gets.chomp
 
+    if selection == "exit"
+      break
+    end
+
     if selection.to_i == comp_guess
       puts "You guessed the correct number!"
     else
