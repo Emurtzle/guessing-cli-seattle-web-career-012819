@@ -6,12 +6,11 @@ def run_guessing_game
 
   selection = gets.chomp
 
-  binding.pry
-
   if selection == "exit"
     puts "Goodbye!"
   else
     if selection.to_i == comp_guess
+      binding.pry
       puts "You guessed the correct number!"
     end
   end
