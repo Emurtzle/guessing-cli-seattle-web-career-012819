@@ -8,6 +8,9 @@ def run_guessing_game
 
   if selection == "exit"
     puts "Goodbye!"
+  else
+    if selection.to_i == comp_guess
+      puts "You guessed the correct number!"
   end
   #if selection.to_i == comp_guess
   #  puts "You guessed the correct number!"
