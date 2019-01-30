@@ -17,11 +17,6 @@ def run_guessing_game
       puts "The computer guessed #{comp_guess}."
     end
   end
-  #if selection.to_i == comp_guess
-  #  puts "You guessed the correct number!"
-  #else
-  #  puts "The computer guessed #{comp_guess}."
-  #end
 end
 
 run_guessing_game
