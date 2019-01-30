@@ -1,8 +1,8 @@
 require "pry"
 
-def run_guessing_game
+def run_guessing_game (int)
   puts "Guess a number between 1 and 6."
-  comp_guess = rand(1..6)
+  comp_guess = int
   selection = gets.chomp
 
   if selection == "exit"
